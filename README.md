@@ -1,5 +1,7 @@
 # sequence-analyzer
-Analyze a datafile line-by-line to find (lack of) randomness
+Analyze a datafile line-by-line to find (lack of) randomness.
+Reads a data file and looks for repetitions and patterns at each index.
+Great for cryptanalysis.
 
 Dependencies:
 
@@ -10,7 +12,7 @@ Dependencies:
   urllib
 
 
-Usage: <code>python3 main.py -i <input-file> -d [decoder]</code>
+Usage: <code>python3 main.py -i \<input-file\> -d [decoder]</code>
 
 Example: <code>python3 main.py -i samples/sample_hex.txt</code>
 
