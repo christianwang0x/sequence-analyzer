@@ -1,5 +1,7 @@
 # sequence-analyzer
-Analyze a datafile line-by-line to find (lack of) randomness
+Analyze a datafile line-by-line to find (lack of) randomness.
+Reads a data file and looks for repetitions and patterns at each index.
+Great for cryptanalysis.
 
 Dependencies:
 
