@@ -10,7 +10,7 @@ Dependencies:
   urllib
 
 
-Usage: <code>python3 main.py -i <input-file> -d [decoder]</code>
+Usage: <code>python3 main.py -i \<input-file\> -d [decoder]</code>
 
 Example: <code>python3 main.py -i samples/sample_hex.txt</code>
 
