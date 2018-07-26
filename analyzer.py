@@ -100,7 +100,7 @@ class Column:
         start = self.longest_slice.start
         stop = self.longest_slice.stop
         length = stop - start
-        int_pairs = [(i, cbl[i]) for i in range(start, stop)]
+        int_pairs = [(i, self.byte_list[i]) for i in range(start, stop)]
         x, y = zip(*int_pairs)
         degree = get_best_fit_degree(x, y, self.maximum_degree)
         residual = round(get_residual(x, y, degree), 2)
